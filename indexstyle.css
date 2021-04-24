@@ -12,13 +12,14 @@ h2{
 }
 img{
     position: relative;
-    width: 140px;
-    height:180px;
+    width: 160px;
+    height:190px;
     align-items: center;
+    align-content: center;
 }
 img:hover{
-    width: 30%;
-    height: 50%;
+    width: 60%;
+    height: 80%;
 }
 a{
     text-decoration: none;
