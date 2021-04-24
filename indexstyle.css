@@ -1,5 +1,5 @@
 body{
-    background: skyblue;
+    background: rgb(81, 194, 238);
     padding: 0;
     margin: 0;
 }
@@ -12,8 +12,8 @@ h2{
 }
 img{
     position: relative;
-    width: 80px;
-    height:110px;
+    width: 140px;
+    height:180px;
     align-items: center;
 }
 img:hover{
@@ -22,4 +22,5 @@ img:hover{
 }
 a{
     text-decoration: none;
+    color:red;
 }
