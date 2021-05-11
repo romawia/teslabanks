@@ -1,40 +1,162 @@
 body{
-    background: rgb(81, 194, 238);
-    padding: 0;
-    margin: 0;
+background-color: rgb(166, 194, 247);
 }
-h2{
-    text-align: center;
-    color: blue;
-}
-.begin{
-    text-align: center;
-}
-img{
+.mainly{
     position: relative;
-    width: 160px;
-    height:190px;
-    align-items: center;
-    align-content: center;
+
 }
-img:hover{
-    width: 60%;
-    height: 80%;
-}
-a{
-    text-decoration: none;
-    color:rgb(227, 255, 67);
-}
-.apk{
-    margin: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-left: 20px;
-    border-radius: 10px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+.intro{
+  margin-left: 10%;
+  margin-right: 10%;
+    height: 20px;
     text-align: center;
-    border: 2px solid rgb(230, 126, 126);
-    background-color: rgb(104, 104, 211);
+    border-radius: 10px;
+    color: white;
 }
+.intro1{
+    text-align: center;
+    text-indent: 5px;
+}
+.add{
+    background-image: linear-gradient(rgb(245, 138, 138), white);
+    border-radius: 5px;
+}
+.earning {
+    margin:10px;
+    color: white;
+    border-radius: 10px;
+    background: green;
+    margin-top: 4px;
+    border: 3px solid black;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.earning a{
+    color: white;
+    text-decoration: none;
+}
+.maincontainer{
+    float: right;
+    justify-content: start;
+    align-items: stretch;
+    width: 100%;
+    height:100%;
+}
+.thecard{
+    align-items: center;
+    position: relative;
+    height:35vh;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+}
+
+.thefront{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    margin-top: 15px;
+    padding-top: 25px;
+    backface-visibility: hidden;
+    background:rgba(255, 255, 0, 0.521);
+    color: dark;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.end{
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background: rgb(193, 209, 238);
+    margin-top: 15px;
+    padding-top: 25px;
+    position: absolute;
+    width: 100%;
+    max-height: fit-content;
+    backface-visibility: hidden;
+    color: rgb(20, 18, 18);
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: center;
+    text-indent: 15px;
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+.thecard1{
+    margin-top: 10px;
+    align-items: center;
+    position: absolute;
+    width: 30vh;
+    height:35vh;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.thefront1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    padding-top: 25px;
+    backface-visibility: hidden;
+    background:rgba(255, 255, 0, 0.521);
+    color: dark;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.aims{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+
+}
+.end1{
+    position: absolute;
+    margin-right: 6opx;
+    background: rgb(193, 209, 238);
+    margin-top: 15px;
+    padding-top: 25px;
+    width: 100%;
+    max-height: fit-content;
+    backface-visibility: hidden;
+    color: rgb(20, 18, 18);
+    border-radius: 20px;
+    transform: rotateY(180deg);
+    text-align: center;
+    text-decoration: none;
+}
+.aims1 ul li{
+    color: rgb(24, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jaareg{
+    background: rgb(247, 247, 151) ;
+    border: 1px solid rgb(247, 247, 151);
+    border-radius: 5px;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.jaareg a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.thecard1:hover{
+    transform: rotateY(180deg);
+}
+
+
