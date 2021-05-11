@@ -8,7 +8,7 @@ background-color: rgb(166, 194, 247);
 .intro{
     background: rgb(107, 103, 103);
   margin-left: 15%;
-  margin-right: 10%;
+  margin-right: 9%;
     height: 25px;
     text-align: center;
     color: white;
@@ -79,7 +79,7 @@ background-color: rgb(166, 194, 247);
 .end{
     padding-left: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     background: rgb(193, 209, 238);
     margin-top: 15px;
     padding-top: 25px;
@@ -131,6 +131,7 @@ background-color: rgb(166, 194, 247);
 
 }
 .end1{
+    margin-right: 20px;
     margin-top: 0%;
     position:relative;
     background: rgb(193, 209, 238);
