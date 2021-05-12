@@ -1,10 +1,3 @@
-body{
-background-color: rgb(166, 194, 247);
-}
-.mainly{
-    position: relative;
-
-}
 .intro{
     background: rgb(107, 103, 103);
   margin-left: 15%;
@@ -16,158 +9,177 @@ background-color: rgb(166, 194, 247);
 }
 .intro1{
     border-radius: 10px;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 5%;
     text-align: center;
     text-indent: 5px;
     background: whitesmoke;
 }
-.add{
-    background-image: linear-gradient(rgb(245, 138, 138), white);
-    border-radius: 5px;
+
+
+.maincontainer{
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+    float: left;
+    align-content: space-between;
 }
-.earning {
-    margin:10px;
-    color: white;
+
+.container{
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(241, 132, 132);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.front{
+    background-image: linear-gradient(to left, blue, white);
+    margin-left: -250px;
+    margin-right: 20px;
+    margin-top: 150%;
+    justify-content: center;
+    width: 500%;
     border-radius: 10px;
-    background: green;
-    margin-top: 4px;
-    border: 3px solid black;
-    text-decoration: none;
-    font-weight:bold;
-    text-transform: uppercase;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+}
+.container:hover{
+    transform: rotateY(180deg);
+}
+.tb{
+    margin-bottom: 5px;
 }
 .earning a{
-    color: white;
-    text-decoration: none;
+        text-decoration: none;
+        background: rgb(135, 182, 97);
+        color: white;
+        opacity: 5;
+        margin-top: 25px;
+        border: solid;
 }
-.maincontainer{
-    position: absolute;
-    max-width: 150%;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
 
-}
-.thecard{
-    margin-top: 15%;
-    margin-left: 10%;
-    align-items: center;
-    position:relative;
-    height:40vh;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-    
-}
-.thefront{
-    position: absolute;
+
+.container1{
+    justify-content: center;
     max-width: fit-content;
-    height: 100%;
-    margin-top: 15px;
-    padding-top: 25px;
-    backface-visibility: hidden;
-    background:rgba(255, 255, 0, 0.521);
-    color: dark;
     text-align: center;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-}
-
-.end{
-    padding-left: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    background: rgb(193, 209, 238);
-    margin-top: 15px;
-    padding-top: 25px;
-    position: relative;
-    width: 100%;
-    max-height: fit-content;
-    backface-visibility: hidden;
-    color: rgb(20, 18, 18);
     border-radius: 20px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-    transform: rotateY(180deg);
-    text-align: center;
-}
-.thecard:hover{
-    transform: rotateY(180deg);
-}
-.thecard1{
-    margin-left: 10%;
-    margin-top: 10px;
-    align-items: center;
-    position: relative;
-    height:35vh;
-    width: max-content;
+    background: rgb(241, 132, 132);
+    backface-visibility: hidden;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
+    margin-left: 10%;
 }
-
-.thefront1{
-    margin-left: 0%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-top:0%;
-    padding-top: 25px;
-    backface-visibility: hidden;
-    background:rgba(255, 255, 0, 0.521);
-    color: dark;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0%;
-}
-.aims{
-    text-align: center;
-    text-transform: uppercase;
-    font-style: italic;
-
-}
-.end1{
-    margin-right: 20px;
-    margin-top: 0%;
-    position:relative;
-    background: rgb(193, 209, 238);
-    max-width:200%;
-    max-height: fit-content;
-    backface-visibility: hidden;
-    color: rgb(20, 18, 18);
+.front1{
+    border: 2px solid red;
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-top: 150%;
+    justify-content: center;
+    width: 400%;
     border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
     transform: rotateY(180deg);
-    text-decoration: none;
+    position: absolute;
 }
-.aims1 ul li{
-    color: rgb(24, 29, 29);
-    font-family: Arial, Helvetica, sans-serif;
-}
-.jaareg{
-    background: rgb(247, 247, 151) ;
-    border: 1px solid rgb(247, 247, 151);
-    border-radius: 5px;
-    padding-bottom: 4px;
-    text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-.jaareg a{
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-.thecard1:hover{
+.container1:hover{
     transform: rotateY(180deg);
 }
-.help{
-    text-align: center;
-    background-image: linear-gradient(rgb(245, 138, 138), white);
-    border-radius: 5px;
 
+
+.container2{
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(241, 132, 132);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.front2{
+    border: 2px solid red;
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-top: 150%;
+    justify-content: center;
+    width: 400%;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+}
+.container2:hover{
+    transform: rotateY(180deg);
 }
 
+
+.container3{
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(241, 132, 132);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.front3{
+    border: 2px solid red;
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-top: 150%;
+    justify-content: center;
+    width: 400%;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+}
+.container3:hover{
+    transform: rotateY(180deg);
+}
+
+
+.container4{
+    justify-content: center;
+    max-width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    background: rgb(241, 132, 132);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    margin-left: 10%;
+}
+.front4{
+    border: 2px solid red;
+    margin-left: -100px;
+    margin-right: 50px;
+    margin-top: 150%;
+    justify-content: center;
+    width: 400%;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    position: absolute;
+}
+.container4:hover{
+    transform: rotateY(180deg);
+}
