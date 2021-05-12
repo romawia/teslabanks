@@ -1,3 +1,29 @@
+body{
+    background-image: linear-gradient(rgb(160, 200, 233), blue);
+    background-repeat:round;
+
+}
+H2{
+    text-align: center;
+}
+.corona{
+    color: red;
+    text-transform: capitalize;
+    background-position: center;
+    font-style: italic;
+    text-align: center;
+    border: red;
+    border-style: dotted;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.maincontainer{
+    width: 100%;
+    height: 100;
+}
+
+
 .intro{
     background: rgb(107, 103, 103);
   margin-left: 15%;
@@ -36,12 +62,11 @@
     margin-left: 10%;
 }
 .front{
-    background-image: linear-gradient(to left, blue, white);
-    margin-left: -250px;
-    margin-right: 20px;
-    margin-top: 150%;
+    background-image: linear-gradient(to left, rgb(108, 108, 243), white);
+    margin-top: 10%;
+    margin-left: -50%;
     justify-content: center;
-    width: 500%;
+    max-width: 400%;
     border-radius: 10px;
     transform-style: preserve-3d;
     transition: all 0.5s ease;
@@ -53,7 +78,16 @@
     transform: rotateY(180deg);
 }
 .tb{
+    
     margin-bottom: 5px;
+}
+.add{
+    background-image: linear-gradient(rgb(245, 138, 138), white);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.earning{
+    text-align: center;
 }
 .earning a{
         text-decoration: none;
