@@ -15,7 +15,14 @@ text-decoration: none;
 padding-top: 8px;
 padding-bottom: 8px;
 }
-
+h3{
+    text-transform: capitalize;
+}
+.notice{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .corona{
     color: red;
     text-transform: capitalize;
@@ -26,10 +33,7 @@ padding-bottom: 8px;
     padding-bottom: 15px;
 }
 .intro{
-    background: rgb(107, 103, 103);
-  margin-left: 10%;
-  margin-right: 10%;
-    height: 25px;
+    line-height: 26px;
     text-align: center;
     color: white;
     margin-bottom: 10px;
@@ -59,7 +63,6 @@ padding-bottom: 8px;
     text-decoration: none;
 }
 .supermajor{
-
     margin-top:10px;
     position:relative;
     display:flex;
@@ -84,6 +87,7 @@ padding-bottom: 8px;
     transition: all 0.5s ease;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+    backface-visibility: hidden;
     
 }
 .thefront{
@@ -121,6 +125,9 @@ padding-bottom: 8px;
     transform: rotateY(180deg);
     text-align: center;
 }
+.again{
+    color: red;
+}
 .thecard:hover{
     transform: rotateY(180deg);
 }
@@ -146,7 +153,11 @@ padding-bottom: 8px;
     backface-visibility: hidden;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    backface-visibility: hidden;
+}
 
+.more{
+    color: red;
 }
 
 .thefront1{
